@@ -11,10 +11,10 @@ const miModulo = (() => {
   const btnPedir = document.querySelector("#btnPedir"),
     btnDetener = document.querySelector("#btnDetener"),
     btnNuevo = document.querySelector("#btnNuevo");
-
   const divCartas = document.querySelectorAll(".divCartas"),
     puntosHTML = document.querySelectorAll("small");
 
+  console.log("Hola");
   const inicializarJuego = (noJugadores = 2) => {
     deck = crearDeck();
     puntosJugadores = [];
@@ -23,11 +23,12 @@ const miModulo = (() => {
     }
     puntosHTML.forEach((element) => (element.innerText = 0));
     divCartas.forEach((element) => (element.innerHTML = ""));
-
+    
     btnPedir.disabled = false;
     btnDetener.disabled = false;
   };
-
+  console.log("Hola2");
+  
   // Esta función crea un nuevo deck
   const crearDeck = () => {
     deck = [];
@@ -42,7 +43,8 @@ const miModulo = (() => {
         deck.push(esp + tipo);
       }
     }
-
+    // deck = _.shuffle(deck);
+    // return deck;
     return _.shuffle(deck);
   };
 
@@ -68,6 +70,7 @@ const miModulo = (() => {
   const crearCartas = (carta, turno) => {
     const imgCarta = document.createElement("img");
     imgCarta.src = `assets/cartas/${carta}.png`;
+    // imgCarta.src = "assets/c";
     imgCarta.classList.add("carta");
     // divCarta.append(imgCarta);
     divCartas[turno].append(imgCarta);
