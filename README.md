@@ -20,4 +20,4 @@ _Herramientas utilizadas en el Proyecto._
 
 Este proyecto se encuentra alojado en el servicio de hosting GitHub Pages
 
-- **[Blackjack]**(https://josue173.github.io/Blackjack/)
+- **[Blackjack](https://josue173.github.io/Blackjack/)**
