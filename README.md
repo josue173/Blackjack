@@ -15,3 +15,9 @@ _Herramientas utilizadas en el Proyecto._
 
 - Comenta a otros sobre este proyecto 📢
 - Si tienes una o varias observaciones hazmelas saber 
+
+## Proyecto publicado
+
+Este proyecto se encuentra alojado en el servicio de hosting GitHub Pages
+
+- **[Blackjack]** (https://josue173.github.io/Blackjack/)
