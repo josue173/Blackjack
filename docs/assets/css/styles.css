@@ -3,13 +3,14 @@ body {
   margin: 0px;
   background-color: #2f4f30;
   color: white;
+  /* width: auto; */
 }
 
 .titulo {
   text-align: center;
   background-color: black;
   color: white;
-  padding: 20px;
+  padding: 15px;
   font-size: 25px;
 }
 
